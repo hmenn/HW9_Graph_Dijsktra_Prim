@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Graph xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Vertices>
+    <Vertex Name="v1" />
+    <Vertex Name="v2" />
+    <Vertex Name="v3" />
+    <Vertex Name="v4" />
+    <Vertex Name="v5" />
+    <Vertex Name="v6" />
+    <Vertex Name="v7" />
+    <Vertex Name="v8" />
+    <Vertex Name="v9" />
+    <Vertex Name="v10" />
+  </Vertices>
+  <Edges>
+    <Edge Name="e1" V1="v1" V2="v3" Weight="180" />
+    <Edge Name="e2" V1="v3" V2="v9" Weight="534" />
+    <Edge Name="e3" V1="v9" V2="v7" Weight="861" />
+    <Edge Name="e4" V1="v7" V2="v5" Weight="852" />
+    <Edge Name="e5" V1="v5" V2="v8" Weight="486" />
+    <Edge Name="e6" V1="v8" V2="v10" Weight="508" />
+    <Edge Name="e7" V1="v10" V2="v2" Weight="148" />
+    <Edge Name="e8" V1="v2" V2="v4" Weight="350" />
+    <Edge Name="e9" V1="v4" V2="v6" Weight="671" />
+    <Edge Name="e10" V1="v3" V2="v5" Weight="373" />
+    <Edge Name="e11" V1="v5" V2="v7" Weight="855" />
+  </Edges>
+</Graph>
